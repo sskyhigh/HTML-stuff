@@ -1,0 +1,13 @@
+.h1{
+    font-size: 60px;
+    color: #454d98;
+    font-family: sans-serif;
+}
+.container{
+    background: white;
+    width: 70%;
+    max-width: 1000%;
+    margin-left: auto;
+    margin-right: auto;
+    margin :0 auto;
+}
