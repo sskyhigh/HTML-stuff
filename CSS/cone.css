@@ -1,0 +1,28 @@
+
+div{
+    --turn: 0.25turn;
+    --bg-color: #111;
+    --light-color: blue;
+    
+    width: 250px;
+    height: 250px;
+  /*   Red Background - makes bad syntax obvious when editing conic gradient */
+    background: red;
+    background: conic-gradient(
+      from var(--turn) at 50% 50%, 
+      var(--bg-color), 5deg, 
+      var(--bg-color), 355deg, 
+      var(--light-color));
+    
+    border: 15px solid black;
+    border-radius: 50%;
+  }
+  
+  body{
+    margin: 0;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+  }

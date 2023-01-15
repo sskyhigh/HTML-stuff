@@ -1,0 +1,31 @@
+body{
+    background-color:blue;
+    background-image: url(../Images/brownBoard.png);
+    color: #ff0000;
+    font-size: 20px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+h1{
+    font-size: 60px;
+    color: #ffc266;
+    font-family: Lucida Bright,Georgia,serif; 
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 0px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: lighter;
+}
+.bold{
+    font-weight: bold;
+}
+.bolder{
+    font-weight: bolder;
+    text-transform: lowercase;
+}

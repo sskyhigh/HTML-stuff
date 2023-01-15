@@ -1,0 +1,48 @@
+body{
+    background-color:blue;
+    background-image: url(../Images/brownBoard.png);
+    color: #ff0000;
+    font-size: 20px;
+    font-family: Calibri,Candara,Segoe,Segoe UI,Optima,Arial,sans-serif; 
+}
+h1{
+    font-size: 60px;
+    color: #ffc266;
+    font-family: Lucida Bright,Georgia,serif; 
+    margin-bottom: 0px;
+}
+h2{
+    margin-top: 0px;
+}
+p{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    color: red
+}
+/*Must be in this order
+    Link
+    Visited
+    hover
+    active
+*/
+a{
+    text-decoration: none;
+}
+a:hover, a:focus{
+    color: brown;
+    text-decoration: none;
+}
+
+body p 
+{
+    color: blue;
+}
+.body{
+    background-color: #a8a832;
+}
+.body a{
+    color:　#9572db;
+}
+.important-links{
+    color: #5ed7db !important;
+}

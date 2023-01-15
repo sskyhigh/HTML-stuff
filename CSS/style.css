@@ -1,0 +1,72 @@
+/*  Some notes: 
+    Margin: Empty space around my element
+    Border: a border / stroke / around element
+    Padding: empty space with background around element 
+*/
+body{
+background-color: #a7dbe3; 
+background-image: url(../Images/brownBoard.png);
+color: white; 
+font-size: 23;
+
+}
+
+p{color: #6666ff;}
+
+h1{
+    font-size: 60px;
+    color: #e0d03a;
+}
+
+.top-section{
+    background-color: black;
+}
+
+body{
+    background-color: #e0d03a;
+    text-align: center;
+}
+.intro{
+    font-size: 20px;
+    color: #e0d03a;
+}
+.color{
+    color: yellow;
+}
+.box{
+    background: violet;
+    width: 300px;
+    margin: 100px;
+    background-image: url(../Images/doggy.jpeg);
+    padding: 100px 100px;
+
+    background-size: cover;
+    background-position: bottom;
+    /*toptop right bottom left
+    go clockwise  
+
+    border-left-width: 5px;
+    border-left-color: greenyellow;
+    border-style: dotted;
+
+    border-right-width: 8px;
+    border-right-style: solid;
+    border-right-color: goldenrod;
+    border-style:dotted;
+    */
+}
+ol{
+    list-style-type: lower-alpha;
+}
+ul{
+    list-style-type: circle;
+    background-color: pink;
+    padding: 15px;
+}
+ul li{
+    background: red;
+    margin-bottom: 15px;
+}
+ol li{
+    margin-bottom: 15px;
+}

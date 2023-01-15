@@ -1,0 +1,36 @@
+/*  Some notes: 
+    Margin: Empty space around my element
+    Border: a border / stroke / around element
+    Padding: empty space with background around element 
+*/
+body{
+    background-color: #a7dbe3; 
+    background-image: url(../Images/brownBoard.png);
+    color: white; 
+    font-size: 23;
+    }
+
+img{
+    float:left;
+    margin-left: 20px;
+}
+.box{
+    height:100px;
+    width: 100px;;
+    color: blue
+}
+.box1{
+    background: pink;
+}.box2{
+    background: #e0d03a;
+}.box3{
+    background: blue;
+}.box4{
+    background: blueviolet;
+}.box5{
+    background: black;
+}.box6{
+    background: white;
+}.box7{
+    background: brown;
+}
